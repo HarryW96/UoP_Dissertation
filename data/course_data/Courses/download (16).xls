@@ -1,0 +1,32 @@
+<table class="t13ReportRegion" cellpadding="0" cellspacing="0" border="0" summary="" id="R71552407058827444" aria-live="polite">
+<thead class="t13RegionHeader">
+<tr>
+<th class="t13RegionTitle">Courses in Department</th>
+<th class="t13RegionButtons" valign="bottom">&nbsp;&nbsp;&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" class="t13RegionBody"><div id="reportR71552407058827444" style="width:100%; "><htmldb:r71552407058827444><table cellpadding="0" cellspacing="0" class="t13Standard" border="0" summary="" id="R71552407058827444">
+<tbody>
+<tr><th align="left" id="DESCRIPTION" class="t13ReportHeader">DESCRIPTION</th><th align="center" id="ACADEMIC_YEAR" class="t13ReportHeader">ACADEMIC_YEAR</th><th align="center" id="COURSE" class="t13ReportHeader">COURSE</th><th align="center" id="STUDY_MODE" class="t13ReportHeader">STUDY_MODE</th></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:2732283">BSC (HONS) BUSINESS INFORMATION SYSTEMS</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C0058S</td><td headers="STUDY_MODE" class="t13data">Sandwich (Optional)</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:28217631">BSC (HONS) BUSINESS INFORMATION SYSTEMS (DL) (TOP-UP)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C2186P</td><td headers="STUDY_MODE" class="t13data">Part Time</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:217924347">BSC (HONS) BUSINESS INFORMATION SYSTEMS (DL) (TOP-UP) (GLOBAL CAMPUS)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">R0351P</td><td headers="STUDY_MODE" class="t13data">Part Time</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:980151061">BSC (HONS) BUSINESS INFORMATION SYSTEMS (MDIS SINGAPORE) (TOP-UP)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">R0423P</td><td headers="STUDY_MODE" class="t13data">Part Time</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:980150896">BSC (HONS) BUSINESS INFORMATION SYSTEMS (MDIS SINGAPORE) (TOP-UP)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">R0423F</td><td headers="STUDY_MODE" class="t13data">Full Time</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:174406127">BSC (HONS) COMPUTER NETWORKS</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C2365S</td><td headers="STUDY_MODE" class="t13data">Sandwich (Optional)</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:2733864">BSC (HONS) COMPUTER SCIENCE</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C0056S</td><td headers="STUDY_MODE" class="t13data">Sandwich (Optional)</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:2732394">BSC (HONS) COMPUTING</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C0580S</td><td headers="STUDY_MODE" class="t13data">Sandwich (Optional)</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:2732214">BSC (HONS) COMPUTING (DL) (TOP-UP) (GLOBAL CAMPUS)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">R0205P</td><td headers="STUDY_MODE" class="t13data">Part Time</td></tr>
+<tr><td headers="DESCRIPTION" class="t13data"><a href="f?p=111:4:::NO::P4_COURSE_ID:2731656">BSC (HONS) COMPUTING AND INFORMATION SYSTEMS (DL) (TOP-UP)</a></td><td headers="ACADEMIC_YEAR" class="t13data">2018</td><td headers="COURSE" class="t13data">C1898P</td><td headers="STUDY_MODE" class="t13data">Part Time</td></tr>
+</tbody>
+<tfoot><tr><td colspan="5" align="right"><table role="presentation"><tbody><tr><td class="pagination"></td><td class="pagination"></td><td nowrap="nowrap" class="pagination"><label for="X01_71552407058827444" class="visuallyhidden">Select Pagination</label><select name="X01" size="1" class="u-TF-item u-TF-item--select" onchange="javascript:apex.navigation.redirect('f?p=111:7:3137075228097:pg_R_71552407058827444:NO&amp;pg_min_row='+this.options[selectedIndex].value+'&amp;pg_rows_fetched=10')" id="X01_71552407058827444"><option value="current" selected="selected">row(s) 1 - 10 of 53</option><option value="11&amp;pg_max_rows=10">11 - 20 of 53</option><option value="21&amp;pg_max_rows=10">21 - 30 of 53</option><option value="31&amp;pg_max_rows=10">31 - 40 of 53</option><option value="41&amp;pg_max_rows=10">41 - 50 of 53</option><option value="51&amp;pg_max_rows=10">51 - 53 of 53</option></select>
+</td><td class="pagination"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tbody><tr><td><a href="f?p=111:7:3137075228097:pg_R_71552407058827444:NO&amp;pg_min_row=11&amp;pg_max_rows=10&amp;pg_rows_fetched=10" class="fielddata">Next</a></td><td><a href="f?p=111:7:3137075228097:pg_R_71552407058827444:NO&amp;pg_min_row=11&amp;pg_max_rows=10&amp;pg_rows_fetched=10"><img src="/i/jtfunexe.gif" width="16" height="16" alt="Next"></a></td></tr></tbody></table></td><td class="pagination"></td></tr></tbody></table></td></tr></tfoot>
+</table>
+<span class="t13CSV"></span>
+</htmldb:r71552407058827444>
+</div></td>
+</tr>
+</tbody>
+</table>
