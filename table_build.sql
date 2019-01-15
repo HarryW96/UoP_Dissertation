@@ -146,7 +146,7 @@ CREATE TABLE Weather(
     humidity INT NOT NULL,
     wind_speed INT NOT NULL,
     weather_description VARCHAR NOT NULL,
-    rain_mm FLOAT NOT NULL,
+    rain_mm FLOAT,
     PRIMARY KEY (weather_date)
 );
 
