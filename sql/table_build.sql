@@ -67,7 +67,7 @@ CREATE TABLE Room(
     bui_id VARCHAR2 NOT NULL,
     room_no VARCHAR2 NOT NULL,
     PRIMARY KEY (room_code),
-    CONSTRAINT room_bui_id_fkey (bui_id)
+    CONSTRAINT room_bui_id_fkey FOREIGN KEY (bui_id)
         REFERENCES building (bui_id)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -81,13 +81,13 @@ CREATE TABLE Lecture(
     lecture_time TIME WITH TIME ZONE NOT NULL,
     lecture_date DATE NOT NULL,
     PRIMARY KEY (lecture_id),
-    CONSTRAINT lecture_unit_code_fkey (unit_code)
+    CONSTRAINT lecture_unit_code_fkey FOREIGN KEY(unit_code)
         REFERENCES Unit (unit_code)
         ON UPDATE CASCADE ON DELETE NO ACTION,
-    CONSTRAINT lecture_room_id_fkey (room_id)
+    CONSTRAINT lecture_room_id_fkey FOREIGN KEY(room_id)
         REFERENCES Room (room_id)
         ON UPDATE CASCADE ON DELETE CASCADE,
-    CONSTRAINT lecture_lecturer_id_fkey
+    CONSTRAINT lecture_lecturer_id_fkey FOREIGN KEY(lecturer_id)
         REFERENCES Lecturer (lecturer_id)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -97,10 +97,10 @@ CREATE TABLE Attendance(
     lecture_id SERIAL NOT NULL,
     attended BOOLEAN NOT NULL,
     PRIMARY KEY (student_id, lecture_id),
-    CONSTRAINT attendance_student_id_fkey (student_id)
+    CONSTRAINT attendance_student_id_fkey FOREIGN KEY(student_id)
         REFERENCES Student (student_id)
-        ON UPDATE NO ACTION ON DELETE NO ACTION
-    CONSTRAINT attendance_lecture_id_fkey (lecture_id)
+        ON UPDATE NO ACTION ON DELETE NO ACTION,
+    CONSTRAINT attendance_lecture_id_fkey FOREIGN KEY(lecture_id)
         REFERENCES Lecture (lecture_id)
         ON UPDATE NO ACTION ON DELETE NO ACTION
 );
@@ -116,7 +116,7 @@ CREATE TABLE Accomodation(
     county VARCHAR2 NOT NULL,
     postcode VARCHAR2 NOT NULL,
     PRIMARY KEY (acommodation_id),
-    CONSTRAINT accomodation_student_id_fkey (student_id)
+    CONSTRAINT accomodation_student_id_fkey FOREIGN KEY(student_id)
         REFERENCES Student (student_id)
         ON UPDATE CASCADE ON DELETE NO ACTION
 );
@@ -131,10 +131,10 @@ CREATE TABLE Travel_Time(
     transit_time TIME,
     cycle_time TIME,
     PRIMARY KEY (travel_id),
-    CONSTRAINT travel_time_accom_id_fkey (accom_id)
+    CONSTRAINT travel_time_accom_id_fkey FOREIGN KEY(accom_id)
         REFERENCES Accomodation (accomodation_id)
         ON UPDATE CASCADE ON DELETE NO ACTION,
-    CONSTRAINT travel_time_bui_id_fkey (bui_id)
+    CONSTRAINT travel_time_bui_id_fkey FOREIGN KEY(bui_id)
         REFERENCES Building (building_id)
         ON UPDATE CASCADE ON DELETE NO ACTION 
 );
