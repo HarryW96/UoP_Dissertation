@@ -63,14 +63,18 @@ CREATE TABLE Building(
 );
 
 CREATE TABLE Room(
-    room_code VARCHAR UNIQUE NOT NULL,
     building_id SERIAL NOT NULL,
+    room_code VARCHAR UNIQUE NOT NULL,
+    building_name VARCHAR NOT NULL,
     room_no VARCHAR NOT NULL,
     PRIMARY KEY (room_code),
     CONSTRAINT room_bui_id_fkey FOREIGN KEY (building_id)
         REFERENCES building (building_id)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
+
+-- This was added later although I've added it to the create table statement above.
+-- ALTER TABLE Room ADD COLUMN building_name VARCHAR NOT NULL;
 
 CREATE TABLE Lecture(
     lecture_id SERIAL NOT NULL,
