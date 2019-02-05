@@ -5,7 +5,7 @@ attendance - 0
 building - 18
 city_event - 0
 course - 0
-course_unit - 0 
+course_unit - 38 
 csv_weather_data - 48219
 json_weather_data - 0
 lecture - 0

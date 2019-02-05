@@ -1,6 +1,8 @@
 
 # 20000 postcodes * 19 lecture buildings * 4 methods of travel = 1.5m requests
 
+# https://docs.microsoft.com/en-gb/rest/api/maps/route/getroutedirections for the new request
+
 $postcode_csv = import-csv "C:\Users\Harry\Documents\University\Year 3\Dissertation\UoP_Dissertation\data\postcode_data\portsmouth_postcode_export.csv";
 
 $lect_csv = import-csv "C:\Users\Harry\Documents\University\Year 3\Dissertation\UoP_Dissertation\data\lecture_locations\buildings.csv";

@@ -99,6 +99,13 @@ CREATE TABLE Lecture(
         ON UPDATE CASCADE ON DELETE CASCADE
 );
 
+ALTER TABLE Lecture ADD COLUMN unit_name VARCHAR NOT NULL;
+ALTER TABLE Lecture ADD COLUMN lecture_end_time TIME NOT NULL;
+ALTER TABLE Lecture ADD COLUMN module_type VARCHAR;
+ALTER TABLE Lecture RENAME COLUMN lecture_time TO lecture_start_time;
+
+
+
 CREATE TABLE Attendance(
     student_id VARCHAR NOT NULL,
     lecture_id SERIAL NOT NULL,
