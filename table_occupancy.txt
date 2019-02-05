@@ -1,0 +1,19 @@
+Tables Populated:
+
+accommodation - 0
+attendance - 0
+building - 18
+city_event - 0
+course - 0
+course_unit - 0 
+csv_weather_data - 48219
+json_weather_data - 0
+lecture - 0
+lecturer - 0
+portsmouth_postcodes - 19476
+postcode_staging - 312557
+room - 159
+student - 0
+test_weather - 1
+travel_time - 0
+unit - 0

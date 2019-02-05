@@ -3,9 +3,12 @@ CREATE TABLE Course(
     course_id VARCHAR UNIQUE NOT NULL,
     course_name VARCHAR NOT NULL,
     study_mode VARCHAR NOT NULL,
-    academic_year VARCHAR NOT NULL,
+    academic_year INT NOT NULL,
     PRIMARY KEY (course_id)
 );
+-- Reflected change below in table creation above although kept for records.
+-- ALTER TABLE course ALTER COLUMN academic_year TYPE INT USING academic_year::INTEGER;
+
 
 CREATE TABLE Student(
     student_id VARCHAR UNIQUE NOT NULL,
@@ -109,6 +112,8 @@ CREATE TABLE Attendance(
         ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
+-- Reconsider the fkey constraint as I don't think I can match
+-- student data to the accommodation/place they're living.
 CREATE TABLE Accommodation(
     accommodation_id SERIAL NOT NULL,
     student_id VARCHAR NOT NULL,

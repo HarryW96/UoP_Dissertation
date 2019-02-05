@@ -8,7 +8,6 @@ foreach($postcode in $PostcodeArray){
 
 $csvToSearch | Where ($_.postcode -match 'PO1') | Out-File 'C:\Users\Harry\Documents\University\Year 3\Dissertation\UoP_Dissertation\data\TESTFILE.txt';
 
-
 $inFile = Import-Csv 'C:\Users\Harry\Documents\University\Year 3\Dissertation\UoP_Dissertation\data\portsmouth_postcode_data.csv'
 $targetCell = $inFile.postcode
 
