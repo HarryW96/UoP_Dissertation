@@ -21,12 +21,18 @@ CREATE TABLE Student(
 );
 
 CREATE TABLE Lecturer(
-    lecturer_id VARCHAR UNIQUE NOT NULL,
+    lecturer_id VARCHAR NOT NULL,
     lecturer_name VARCHAR NOT NULL,
     email_address VARCHAR NOT NULL,
     contact_no VARCHAR,
     PRIMARY KEY (lecturer_id)
 );
+
+-- Changes made to above table can be shown below.
+-- ALTER TABLE Lecturer DROP COLUMN contact_no;
+-- ALTER TABLE Lecturer RENAME COLUMN lecturer_name TO lecturer_fName;
+-- ALTER TABLE Lecturer ADD COLUMN lecturer_lName VARCHAR NOT NULL;
+
 
 CREATE TABLE Unit(
     unit_code VARCHAR UNIQUE NOT NULL,
@@ -41,6 +47,10 @@ CREATE TABLE Unit(
         ON UPDATE CASCADE ON DELETE CASCADE
 );
 
+-- ALTER TABLE Unit ALTER COLUMN study_level TYPE VARCHAR USING study_level::VARCHAR;
+-- ALTER TABLE Unit RENAME COLUMN unit_coord TO coordinator_id;
+-- ALTER TABLE Unit ALTER COLUMN coordinator_id DROP NOT NULL
+
 CREATE TABLE Course_unit(
     course_id VARCHAR UNIQUE NOT NULL,
     unit_code VARCHAR NOT NULL,
@@ -53,6 +63,14 @@ CREATE TABLE Course_unit(
         REFERENCES Unit (unit_code) 
         ON UPDATE CASCADE ON DELETE NO ACTION
 );
+
+-- Renaming and altering type of optional
+-- ALTER TABLE course_unit ALTER COLUMN optional TYPE VARCHAR USING optional::VARCHAR;
+-- ALTER TABLE course_unit RENAME COLUMN optional TO course_option;
+-- Changing from a single primary key to a composite
+-- ALTER TABLE Course_Unit DROP CONSTRAINT course_unit_pkey;
+-- ALTER TABLE Course_Unit ADD CONSTRAINT course_unit_pkey primary key (course_id, unit_code);
+
 
 CREATE TABLE Building(
     building_id SERIAL NOT NULL,
