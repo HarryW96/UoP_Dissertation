@@ -25,6 +25,15 @@ FROM 'location_data/Buildings.csv' DELIMITER ',' CSV HEADER;
 COPY course(course_id, course_name, academic_year, study_mode)
 FROM '/home/harryw/course_data/course/complete_courses.csv' DELIMITER ',' CSV HEADER;
 
+-- Inserting extra rows that were not included in course data for some reason - included in the original data as well.
+INSERT INTO Course(course_id, course_name, academic_year, study_mode)
+VALUES
+    ('C2187S', 'BSC (HONS) WEB TECHNOLOGIES', 2018, 'Sandwich (Optional)'),
+    ('C0968S', 'BSC (HONS) SOFTWARE ENGINEERING', 2018, 'Sandwich (Optional)'),
+    ('C2407S', 'BSC (HONS) FORENSIC COMPUTING',	2018, 'Sandwich (Optional'),
+    ('C2686S', 'BSC (HONS) DATA SCIENCE AND ANALYTICS',	2018, 'Sandwich (Optional'),
+    ('C2753S', 'BSC (HONS) CYBER SECURITY AND FORENSIC COMPUTING',	2018, 'Sandwich (Optional');
+
 -- Copying unit data from unit csv to unit table
 COPY unit(unit_code, unit_coord, unit_name, short_name, credits, study_level)
 FROM '/home/harryw/course_data/unit/complete_units.csv' DELIMITER ',' CSV HEADER;
@@ -37,6 +46,6 @@ FROM '/home/harryw/lecturer_data/lecturer_data.csv' DELIMITER ',' CSV HEADER;
 COPY unit(unit_code, coordinator_id, unit_name, short_name, credits, study_level)
 FROM '/home/harryw/course_data/unit/unit_list_utf.csv' DELIMITER ',' CSV HEADER;
 
--- Copying from course_unit.csv data to course_unit table - not currently working.
-COPY course_unit(course_id, unit_code, course_option)
+-- Copying from course_unit.csv data to course_unit table.
+COPY course_unit(course_id, unit_code, course_option, course_unit_year)
 FROM '/home/harryw/course_data/course_unit.csv' DELIMITER ',' CSV HEADER;

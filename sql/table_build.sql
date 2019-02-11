@@ -67,9 +67,13 @@ CREATE TABLE Course_unit(
 -- Renaming and altering type of optional
 -- ALTER TABLE course_unit ALTER COLUMN optional TYPE VARCHAR USING optional::VARCHAR;
 -- ALTER TABLE course_unit RENAME COLUMN optional TO course_option;
+
+-- Adding course year to include in composite primary key
+-- ALTER TABLE Course_unit ADD COLUMN course_unit_year INT NOT NULL;
+
 -- Changing from a single primary key to a composite
 -- ALTER TABLE Course_Unit DROP CONSTRAINT course_unit_pkey;
--- ALTER TABLE Course_Unit ADD CONSTRAINT course_unit_pkey primary key (course_id, unit_code);
+-- ALTER TABLE Course_Unit ADD CONSTRAINT course_unit_pkey primary key (course_id, unit_code, course_unit_year);
 
 
 CREATE TABLE Building(
