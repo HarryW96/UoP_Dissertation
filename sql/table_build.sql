@@ -20,6 +20,8 @@ CREATE TABLE Student(
         ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
+ALTER TABLE Student DROP COLUMN transport_method;
+
 CREATE TABLE Lecturer(
     lecturer_id VARCHAR NOT NULL,
     lecturer_name VARCHAR NOT NULL,
@@ -125,7 +127,11 @@ ALTER TABLE Lecture ADD COLUMN unit_name VARCHAR NOT NULL;
 ALTER TABLE Lecture ADD COLUMN lecture_end_time TIME NOT NULL;
 ALTER TABLE Lecture ADD COLUMN module_type VARCHAR;
 ALTER TABLE Lecture RENAME COLUMN lecture_time TO lecture_start_time;
-
+-- 12/03/19 - Loading Lecture data and noticed changes due to date storage styles
+ALTER TABLE Lecture ADD COLUMN lecture_weeks VARCHAR;
+ALTER TABLE Lecture RENAME COLUMN lecture_date TO lecture_day;
+ALTER TABLE Lecture ALTER COLUMN lecture_day TYPE VARCHAR;
+ALTER TABLE Lecture ALTER COLUMN lecture_start_time TYPE TIME WITHOUT TIME ZONE;
 
 
 CREATE TABLE Attendance(
@@ -175,6 +181,15 @@ CREATE TABLE Travel_Time(
     CONSTRAINT travel_time_bui_id_fkey FOREIGN KEY(building_id)
         REFERENCES Building (building_id)
         ON UPDATE CASCADE ON DELETE NO ACTION 
+);
+
+CREATE TABLE Termdates(
+    day_name VARCHAR,
+    date_num INTEGER,
+    month_name VARCHAR,
+    year_num INTEGER,
+    term_week INTEGER,
+    PRIMARY KEY(date_num, month_name, year_num)
 );
 
 -- Come back to, build 2 weather tables from JSON & CSV and then collate into single table.

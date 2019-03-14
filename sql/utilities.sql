@@ -53,3 +53,10 @@ FROM '/home/harryw/course_data/course_unit.csv' DELIMITER ',' CSV HEADER;
 -- Copying from term_dates.csv data to termdates table.
 COPY termdates(day_name, date_num, month_name, year_num, term_week)
 FROM '/home/harryw/term_dates.csv' DELIMITER ',' CSV HEADER;
+
+-- Copying from lecture_data.csv data to lecture table.
+COPY lecture(unit_code, room_code, lecturer_id, lecture_start_time, lecture_weeks, lecture_day, unit_name, lecture_end_time, module_type)
+FROM '/home/harryw/lecture_data.csv' DELIMITER ',' CSV HEADER;
+
+COPY student(student_id, course_id)
+FROM '/home/harryw/student_data_insert.csv' DELIMITER ',' CSV HEADER;
