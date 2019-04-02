@@ -133,17 +133,54 @@ ALTER TABLE Lecture RENAME COLUMN lecture_date TO lecture_day;
 ALTER TABLE Lecture ALTER COLUMN lecture_day TYPE VARCHAR;
 ALTER TABLE Lecture ALTER COLUMN lecture_start_time TYPE TIME WITHOUT TIME ZONE;
 
-
 CREATE TABLE Attendance(
     student_id VARCHAR NOT NULL,
-    lecture_id SERIAL NOT NULL,
+    unit_id VARCHAR NOT NULL,
+    week INT NOT NULL,
     attended BOOLEAN NOT NULL,
-    PRIMARY KEY (student_id, lecture_id),
+    PRIMARY KEY (student_id, unit_id, week),
     CONSTRAINT attendance_student_id_fkey FOREIGN KEY(student_id)
         REFERENCES Student (student_id)
         ON UPDATE NO ACTION ON DELETE NO ACTION,
-    CONSTRAINT attendance_lecture_id_fkey FOREIGN KEY(lecture_id)
-        REFERENCES Lecture (lecture_id)
+    CONSTRAINT attendance_unit_id_fkey FOREIGN KEY(unit_id)
+        REFERENCES Unit (unit_code)
+        ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+
+CREATE TABLE Attendance_Test(
+    student_id VARCHAR NOT NULL,
+    unit_id VARCHAR NOT NULL,
+    week1_attend INT NOT NULL,
+    week2_attend INT NOT NULL,
+    week3_attend INT NOT NULL,
+    week4_attend INT NOT NULL,
+    week5_attend INT NOT NULL,
+    week6_attend INT NOT NULL,
+    week7_attend INT NOT NULL,
+    week8_attend INT NOT NULL,
+    week9_attend INT NOT NULL,
+    week10_attend INT NOT NULL,
+    week11_attend INT NOT NULL,
+    week12_attend INT NOT NULL,
+    week14_attend INT NOT NULL,
+    week15_attend INT NOT NULL,
+    week16_attend INT NOT NULL,
+    week17_attend INT NOT NULL,
+    week18_attend INT NOT NULL,
+    week19_attend INT NOT NULL,
+    week21_attend INT NOT NULL,
+    week22_attend INT NOT NULL,
+    week23_attend INT NOT NULL,
+    week24_attend INT NOT NULL,
+    week25_attend INT NOT NULL,
+    week26_attend INT NOT NULL,
+    PRIMARY KEY (student_id, unit_id),
+    CONSTRAINT attendance_student_id_fkey FOREIGN KEY(student_id)
+        REFERENCES Student (student_id)
+        ON UPDATE NO ACTION ON DELETE NO ACTION,
+    CONSTRAINT attendance_unit_id_fkey FOREIGN KEY(unit_id)
+        REFERENCES Unit (unit_code)
         ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 

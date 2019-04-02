@@ -60,3 +60,19 @@ FROM '/home/harryw/lecture_data.csv' DELIMITER ',' CSV HEADER;
 
 COPY student(student_id, course_id)
 FROM '/home/harryw/student_data_insert.csv' DELIMITER ',' CSV HEADER;
+
+COPY student(student_id, course_id)
+FROM '/home/harryw/student_data_insert.csv' DELIMITER ',' CSV HEADER;
+
+COPY lecture(unit_code, lecture_start_time,lecture_day, unit_name, lecture_end_time, module_type, lecture_weeks)
+FROM '/home/harryw/Unit_Times.csv' DELIMITER ',' CSV HEADER;
+
+COPY attendance_test
+FROM '/home/harryw/attendance_data.csv' DELIMITER ',' CSV HEADER;
+
+COPY weather_data
+FROM '/home/harryw/weather_data/Weather_080119-010419.csv' DELIMITER ',' CSV HEADER;
+
+
+COPY city_event(location, event_name, start_datetime, end_datetime)
+FROM '/home/harryw/event_data/Portsmouth_events.csv' DELIMITER ',' CSV HEADER;
