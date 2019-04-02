@@ -229,6 +229,13 @@ CREATE TABLE Termdates(
     PRIMARY KEY(date_num, month_name, year_num)
 );
 
+CREATE TABLE Termdates_test(
+    day_name VARCHAR,
+    full_date DATE,
+    term_week INTEGER,
+    PRIMARY KEY(full_date)
+);
+
 -- Come back to, build 2 weather tables from JSON & CSV and then collate into single table.
 CREATE TABLE Weather(
     weather_date TIMESTAMP UNIQUE NOT NULL,
