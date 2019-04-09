@@ -1,0 +1,160 @@
+,Building_Name,Room_No,Room_Code
+1,Anglesea,0.03,A0.03
+1,Anglesea,0.28,A0.28
+1,Anglesea,0.29,A0.29
+1,Anglesea,0.3,A0.3
+1,Anglesea,1.02,A1.02
+1,Anglesea,1.03,A1.03
+1,Anglesea,1.04,A1.04
+1,Anglesea,1.1,A1.1
+1,Anglesea,1.11,A1.11
+1,Anglesea,2.01,A2.01
+1,Anglesea,2.06,A2.06
+1,Anglesea,2.08,A2.08
+2,Buckingham,1.01,BK1.01
+2,Buckingham,2.01,BK2.01
+2,Buckingham,3.03,BK3.03
+2,Buckingham,3.04,BK3.04
+2,Buckingham,3.05,BK3.05
+2,Buckingham,3.06,BK3.06
+3,Burnaby,1.25,BB1.25
+3,Burnaby,1.26,BB1.26
+3,Burnaby,2.23,BB2.23
+3,Burnaby,2.24,BB2.24
+3,Burnaby,2.26,BB2.26
+3,Burnaby,3.3,BB3.30
+3,Burnaby,4.03,BB4.03
+3,Burnaby,4.04,BB4.04
+3,Burnaby,4.05,BB4.05
+4,Dennis Sciama,1.01,DS1.01
+4,Dennis Sciama,1.02,DS1.02
+4,Dennis Sciama,1.03,DS1.03
+4,Dennis Sciama,1.04,DS1.04
+4,Dennis Sciama,1.05,DS1.05
+4,Dennis Sciama,1.07,DS1.07
+4,Dennis Sciama,1.08,DS1.08
+4,Dennis Sciama,1.09,DS1.09
+4,Dennis Sciama,1.1,DS1.10
+4,Dennis Sciama,1.11,DS1.11
+4,Dennis Sciama,1.12,DS1.12
+4,Dennis Sciama,2.01,DS2.01
+4,Dennis Sciama,2.02,DS2.02
+4,Dennis Sciama,2.07,DS2.07
+4,Dennis Sciama,2.08,DS2.08
+4,Dennis Sciama,2.09,DS2.09
+4,Dennis Sciama,2.1,DS2.10
+4,Dennis Sciama,2.12,DS2.12
+4,Dennis Sciama,2.13,DS2.13
+4,Dennis Sciama,2.14,DS2.14
+5,Dental Academy,0.04,WBB0.04
+5,Dental Academy,0.23,WBB0.23
+5,Dental Academy,0.24,WBB0.24
+5,Dental Academy,0.27,WBB0.27
+6,Eldon,0.2,EL0.20
+6,Eldon,W 1.01,ELW 1.01
+6,Eldon,W 1.02,ELW 1.02
+6,Eldon,W 1.03,ELW 1.03
+6,Eldon,W 1.04,ELW 1.04
+6,Eldon,W 1.05,ELW 1.05
+6,Eldon,W 1.08,ELW 1.08
+6,Eldon,W 1.09,ELW 1.09
+6,Eldon,W 1.10,ELW 1.10
+6,Eldon,W 1.11,ELW 1.11
+7,Future Technology Center,Floor 1,FTC Floor 1
+7,Future Technology Center,Floor 2,FTC Floor 2
+8,King Henry,0.01,KH0.01
+8,King Henry,0.02,KH0.02
+8,King Henry,1.07,KH1.07
+8,King Henry,3.09,KH3.09
+8,King Henry,3.13,KH3.13
+8,King Henry,3.14,KH3.14
+9,Langstone Campus,EH,LNEH
+9,Langstone Campus,LT,LNLT
+10,Library,0.35,UL0.35
+10,Library,0.36,UL0.36
+10,Library,0.37,UL0.37
+10,Library,OA3,ULOA3
+11,Lion Gate,1.22,LG1.22
+11,Lion Gate,2.01,LG2.01
+11,Lion Gate,2.02,LG2.02
+11,Lion Gate,2.03,LG2.03
+11,Lion Gate,2.04a,LG2.04a
+11,Lion Gate,2.04b,LG2.04b
+11,Lion Gate,2.04c,LG2.04c
+11,Lion Gate,2.05,LG2.05
+11,Lion Gate,2.06,LG2.06
+12,Milldam,LE0.01,MLLE0.01
+12,Milldam,LE0.02,MLLE0.02
+12,Milldam,LE0.03,MLLE0.03
+12,Milldam,LE0.04,MLLE0.04
+12,Milldam,LE0.05,MLLE0.05
+12,Milldam,LE0.06,MLLE0.06
+12,Milldam,LE1.01,MLLE1.01
+12,Milldam,LE1.03,MLLE1.03
+12,Milldam,LE1.04,MLLE1.04
+13,Park,0.04,PK0.04
+13,Park,0.05,PK0.05
+13,Park,0.08,PK0.08
+13,Park,0.1,PK0.1
+13,Park,0.11,PK0.11
+13,Park,0.12,PK0.12
+13,Park,0.13,PK0.13
+13,Park,1.09,PK1.09
+13,Park,1.23,PK1.23
+13,Park,2.01,PK2.01
+13,Park,2.07,PK2.07
+13,Park,2.09,PK2.09
+13,Park,2.15,PK2.15
+13,Park,2.16,PK2.16
+13,Park,2.19,PK2.19
+13,Park,2.2,PK2.2
+13,Park,2.22,PK2.22
+13,Park,2.23,PK2.23
+13,Park,2.24,PK2.24
+13,Park,3.01,PK3.01
+13,Park,3.03,PK3.03
+13,Park,3.06,PK3.06
+13,Park,3.07,PK3.07
+13,Park,3.13,PK3.13
+13,Park,3.19,PK3.19
+13,Park,3.2,PK3.2
+13,Park,3.23,PK3.23
+13,Park,3.24,PK3.24
+14,Portland,0.28,PO0.28
+14,Portland,0.41,PO0.41
+14,Portland,1.11,PO1.11
+14,Portland,1.19,PO1.19
+14,Portland,1.33,P01.33
+14,Portland,1.44,PO1.44
+14,Portland,1.51,PO1.51
+14,Portland,1.65,PO1.65
+14,Portland,1.66,PO1.66
+14,Portland,1.67,PO1.67
+14,Portland,1.74,PO1.74
+15,Richmond,1.03,RB1.03
+15,Richmond,1.04,RB1.04
+15,Richmond,1.05,RB1.05
+15,Richmond,2.06,RB2.06
+15,Richmond,LT1,RBLT1
+15,Richmond,LT2,RBLT2
+15,Richmond,LT3,RBLT3
+16,St Andrews Court,3.01,SA3.01
+16,St Andrews Court,3.02,SA3.02
+16,St Andrews Court,3.03,SA3.03
+17,St Georges,0.13,SG0.13
+17,St Georges,0.15,SG0.15
+17,St Georges,0.2,SG0.2
+17,St Georges,0.22,SG0.22
+17,St Georges,1.08,SG1.08
+17,St Georges,1.09,SG1.09
+17,St Georges,1.1,SG1.1
+17,St Georges,1.11,SG1.11
+17,St Georges,1.12,SG1.12
+17,St Georges,4.13,SG4.13
+17,St Georges,4.14,SG4.14
+17,St Georges,1.15,SG1.15
+18,St Michaels,0.1,SM0.1
+18,St Michaels,0.2,SM0.2
+18,St Michaels,0.32,SM0.32
+18,St Michaels,1.01,SM1.01
+18,St Michaels,3.17,SM3.17

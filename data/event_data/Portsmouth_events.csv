@@ -1,0 +1,362 @@
+location,event_name,start_datetime,end_datetime
+Astoria,Delight,24/09/2018 22:00,25/09/2018 02:00
+Astoria,Delight,01/10/2018 22:00,02/10/2018 02:00
+Astoria,Delight,08/10/2018 22:00,09/10/2018 02:00
+Astoria,Delight,15/10/2018 22:00,16/10/2018 02:00
+Astoria,Delight,22/10/2018 22:00,23/10/2018 02:00
+Astoria,Delight,29/10/2018 22:00,30/10/2018 02:00
+Astoria,Delight,05/11/2018 22:00,06/11/2018 02:00
+Astoria,Delight,12/11/2018 22:00,13/11/2018 02:00
+Astoria,Delight,19/11/2018 22:00,20/11/2018 02:00
+Astoria,Delight,26/11/2018 22:00,27/11/2018 02:00
+Astoria,Delight,03/12/2018 22:00,04/12/2018 02:00
+Astoria,Delight,10/12/2018 22:00,11/12/2018 02:00
+Astoria,Delight,17/12/2018 22:00,18/12/2018 02:00
+Astoria,Delight,24/12/2018 22:00,25/12/2018 02:00
+Astoria,Delight,31/12/2018 22:00,01/01/2019 02:00
+Astoria,Delight,07/01/2019 22:00,08/01/2019 02:00
+Astoria,Delight,14/01/2019 22:00,15/01/2019 02:00
+Astoria,Delight,21/01/2019 22:00,22/01/2019 02:00
+Astoria,Delight,28/01/2019 22:00,29/01/2019 02:00
+Astoria,Delight,04/02/2019 22:00,05/02/2019 02:00
+Astoria,Delight,11/02/2019 22:00,12/02/2019 02:00
+Astoria,Delight,18/02/2019 22:00,19/02/2019 02:00
+Astoria,Delight,25/02/2019 22:00,26/02/2019 02:00
+Astoria,Delight,04/03/2019 22:00,05/03/2019 02:00
+Astoria,Delight,11/03/2019 22:00,12/03/2019 02:00
+Astoria,Delight,18/03/2019 22:00,19/03/2019 02:00
+Astoria,Delight,25/03/2019 22:00,26/03/2019 02:00
+Astoria,Delight,01/04/2019 22:00,02/04/2019 02:00
+Astoria,Delight,08/04/2019 22:00,09/04/2019 02:00
+Astoria,Delight,15/04/2019 22:00,16/04/2019 02:00
+Astoria,Delight,22/04/2019 22:00,23/04/2019 02:00
+Astoria,Delight,29/04/2019 22:00,30/04/2019 02:00
+Astoria,Delight,06/05/2019 22:00,07/05/2019 02:00
+Astoria,Delight,13/05/2019 22:00,14/05/2019 02:00
+Astoria,Delight,20/05/2019 22:00,21/05/2019 02:00
+Astoria,Delight,27/05/2019 22:00,28/05/2019 02:00
+Astoria,Delight,03/06/2019 22:00,04/06/2019 02:00
+Astoria,Delight,10/06/2019 22:00,11/06/2019 02:00
+Astoria,Delight,17/06/2019 22:00,18/06/2019 02:00
+Astoria,Delight,24/06/2019 22:00,25/06/2019 02:00
+Astoria,Delight,01/07/2019 22:00,02/07/2019 02:00
+Astoria,Dirty Disco,25/09/2018 22:00,26/09/2018 02:00
+Astoria,Dirty Disco,02/10/2018 22:00,03/10/2018 02:00
+Astoria,Dirty Disco,09/10/2018 22:00,10/10/2018 02:00
+Astoria,Dirty Disco,16/10/2018 22:00,17/10/2018 02:00
+Astoria,Dirty Disco,23/10/2018 22:00,24/10/2018 02:00
+Astoria,Dirty Disco,30/10/2018 22:00,31/10/2018 02:00
+Astoria,Dirty Disco,06/11/2018 22:00,07/11/2018 02:00
+Astoria,Dirty Disco,13/11/2018 22:00,14/11/2018 02:00
+Astoria,Dirty Disco,20/11/2018 22:00,21/11/2018 02:00
+Astoria,Dirty Disco,27/11/2018 22:00,28/11/2018 02:00
+Astoria,Dirty Disco,04/12/2018 22:00,05/12/2018 02:00
+Astoria,Dirty Disco,11/12/2018 22:00,12/12/2018 02:00
+Astoria,Dirty Disco,18/12/2018 22:00,19/12/2018 02:00
+Astoria,Dirty Disco,25/12/2018 22:00,26/12/2018 02:00
+Astoria,Dirty Disco,01/01/2019 22:00,02/01/2019 02:00
+Astoria,Dirty Disco,08/01/2019 22:00,09/01/2019 02:00
+Astoria,Dirty Disco,15/01/2019 22:00,16/01/2019 02:00
+Astoria,Dirty Disco,22/01/2019 22:00,23/01/2019 02:00
+Astoria,Dirty Disco,29/01/2019 22:00,30/01/2019 02:00
+Astoria,Dirty Disco,05/02/2019 22:00,06/02/2019 02:00
+Astoria,Dirty Disco,12/02/2019 22:00,13/02/2019 02:00
+Astoria,Dirty Disco,19/02/2019 22:00,20/02/2019 02:00
+Astoria,Dirty Disco,26/02/2019 22:00,27/02/2019 02:00
+Astoria,Dirty Disco,05/03/2019 22:00,06/03/2019 02:00
+Astoria,Dirty Disco,12/03/2019 22:00,13/03/2019 02:00
+Astoria,Dirty Disco,19/03/2019 22:00,20/03/2019 02:00
+Astoria,Dirty Disco,26/03/2019 22:00,27/03/2019 02:00
+Astoria,Dirty Disco,02/04/2019 22:00,03/04/2019 02:00
+Astoria,Dirty Disco,09/04/2019 22:00,10/04/2019 02:00
+Astoria,Dirty Disco,16/04/2019 22:00,17/04/2019 02:00
+Astoria,Dirty Disco,23/04/2019 22:00,24/04/2019 02:00
+Astoria,Dirty Disco,30/04/2019 22:00,01/05/2019 02:00
+Astoria,Dirty Disco,07/05/2019 22:00,08/05/2019 02:00
+Astoria,Dirty Disco,14/05/2019 22:00,15/05/2019 02:00
+Astoria,Dirty Disco,21/05/2019 22:00,22/05/2019 02:00
+Astoria,Dirty Disco,28/05/2019 22:00,29/05/2019 02:00
+Astoria,Dirty Disco,04/06/2019 22:00,05/06/2019 02:00
+Astoria,Dirty Disco,11/06/2019 22:00,12/06/2019 02:00
+Astoria,Dirty Disco,18/06/2019 22:00,19/06/2019 02:00
+Astoria,Dirty Disco,25/06/2019 22:00,26/06/2019 02:00
+Astoria,Dirty Disco,02/07/2019 22:00,03/07/2019 02:00
+Astoria,Concrete Music,27/09/2018 22:00,28/09/2018 02:00
+Astoria,Concrete Music,04/10/2018 22:00,05/10/2018 02:00
+Astoria,Concrete Music,11/10/2018 22:00,12/10/2018 02:00
+Astoria,Concrete Music,18/10/2018 22:00,19/10/2018 02:00
+Astoria,Concrete Music,25/10/2018 22:00,26/10/2018 02:00
+Astoria,Concrete Music,01/11/2018 22:00,02/11/2018 02:00
+Astoria,Concrete Music,08/11/2018 22:00,09/11/2018 02:00
+Astoria,Concrete Music,15/11/2018 22:00,16/11/2018 02:00
+Astoria,Concrete Music,22/11/2018 22:00,23/11/2018 02:00
+Astoria,Concrete Music,29/11/2018 22:00,30/11/2018 02:00
+Astoria,Concrete Music,06/12/2018 22:00,07/12/2018 02:00
+Astoria,Concrete Music,13/12/2018 22:00,14/12/2018 02:00
+Astoria,Concrete Music,20/12/2018 22:00,21/12/2018 02:00
+Astoria,Concrete Music,27/12/2018 22:00,28/12/2018 02:00
+Astoria,Concrete Music,03/01/2019 22:00,04/01/2019 02:00
+Astoria,Concrete Music,10/01/2019 22:00,11/01/2019 02:00
+Astoria,Concrete Music,17/01/2019 22:00,18/01/2019 02:00
+Astoria,Concrete Music,24/01/2019 22:00,25/01/2019 02:00
+Astoria,Concrete Music,31/01/2019 22:00,01/02/2019 02:00
+Astoria,Concrete Music,07/02/2019 22:00,08/02/2019 02:00
+Astoria,Concrete Music,14/02/2019 22:00,15/02/2019 02:00
+Astoria,Concrete Music,21/02/2019 22:00,22/02/2019 02:00
+Astoria,Concrete Music,28/02/2019 22:00,01/03/2019 02:00
+Astoria,Concrete Music,07/03/2019 22:00,08/03/2019 02:00
+Astoria,Concrete Music,14/03/2019 22:00,15/03/2019 02:00
+Astoria,Concrete Music,21/03/2019 22:00,22/03/2019 02:00
+Astoria,Concrete Music,28/03/2019 22:00,29/03/2019 02:00
+Astoria,Concrete Music,04/04/2019 22:00,05/04/2019 02:00
+Astoria,Concrete Music,11/04/2019 22:00,12/04/2019 02:00
+Astoria,Concrete Music,18/04/2019 22:00,19/04/2019 02:00
+Astoria,Concrete Music,25/04/2019 22:00,26/04/2019 02:00
+Astoria,Concrete Music,02/05/2019 22:00,03/05/2019 02:00
+Astoria,Concrete Music,09/05/2019 22:00,10/05/2019 02:00
+Astoria,Concrete Music,16/05/2019 22:00,17/05/2019 02:00
+Astoria,Concrete Music,23/05/2019 22:00,24/05/2019 02:00
+Astoria,Concrete Music,30/05/2019 22:00,31/05/2019 02:00
+Astoria,Concrete Music,06/06/2019 22:00,07/06/2019 02:00
+Astoria,Eskimo Project,28/09/2018 22:00,29/09/2018 02:00
+Astoria,Eskimo Project,05/10/2018 22:00,06/10/2018 02:00
+Astoria,Eskimo Project,12/10/2018 22:00,13/10/2018 02:00
+Astoria,Eskimo Project,19/10/2018 22:00,20/10/2018 02:00
+Astoria,Eskimo Project,26/10/2018 22:00,27/10/2018 02:00
+Astoria,Eskimo Project,02/11/2018 22:00,03/11/2018 02:00
+Astoria,Eskimo Project,09/11/2018 22:00,10/11/2018 02:00
+Astoria,Eskimo Project,16/11/2018 22:00,17/11/2018 02:00
+Astoria,Eskimo Project,23/11/2018 22:00,24/11/2018 02:00
+Astoria,Eskimo Project,30/11/2018 22:00,01/12/2018 02:00
+Astoria,Eskimo Project,07/12/2018 22:00,08/12/2018 02:00
+Astoria,Eskimo Project,14/12/2018 22:00,15/12/2018 02:00
+Astoria,Eskimo Project,21/12/2018 22:00,22/12/2018 02:00
+Astoria,Eskimo Project,28/12/2018 22:00,29/12/2018 02:00
+Astoria,Eskimo Project,04/01/2019 22:00,05/01/2019 02:00
+Astoria,Eskimo Project,11/01/2019 22:00,12/01/2019 02:00
+Astoria,Eskimo Project,18/01/2019 22:00,19/01/2019 02:00
+Astoria,Eskimo Project,25/01/2019 22:00,26/01/2019 02:00
+Astoria,Eskimo Project,01/02/2019 22:00,02/02/2019 02:00
+Astoria,Eskimo Project,08/02/2019 22:00,09/02/2019 02:00
+Astoria,Eskimo Project,15/02/2019 22:00,16/02/2019 02:00
+Astoria,Eskimo Project,22/02/2019 22:00,23/02/2019 02:00
+Astoria,Eskimo Project,01/03/2019 22:00,02/03/2019 02:00
+Astoria,Eskimo Project,08/03/2019 22:00,09/03/2019 02:00
+Astoria,Eskimo Project,15/03/2019 22:00,16/03/2019 02:00
+Astoria,Eskimo Project,22/03/2019 22:00,23/03/2019 02:00
+Astoria,Eskimo Project,29/03/2019 22:00,30/03/2019 02:00
+Astoria,Eskimo Project,05/04/2019 22:00,06/04/2019 02:00
+Astoria,Eskimo Project,12/04/2019 22:00,13/04/2019 02:00
+Astoria,Eskimo Project,19/04/2019 22:00,20/04/2019 02:00
+Astoria,Eskimo Project,26/04/2019 22:00,27/04/2019 02:00
+Astoria,Eskimo Project,03/05/2019 22:00,04/05/2019 02:00
+Astoria,Eskimo Project,10/05/2019 22:00,11/05/2019 02:00
+Astoria,Eskimo Project,17/05/2019 22:00,18/05/2019 02:00
+Astoria,Eskimo Project,24/05/2019 22:00,25/05/2019 02:00
+Astoria,Eskimo Project,31/05/2019 22:00,01/06/2019 02:00
+Astoria,Eskimo Project,07/06/2019 22:00,08/06/2019 02:00
+Astoria,Eskimo Project,14/06/2019 22:00,15/06/2019 02:00
+Astoria,Eskimo Project,21/06/2019 22:00,22/06/2019 02:00
+Astoria,Eskimo Project,28/06/2019 22:00,29/06/2019 02:00
+Astoria,Eskimo Project,05/07/2019 22:00,06/07/2019 02:00
+Astoria,Oh La La,28/09/2018 22:00,29/09/2018 02:00
+Astoria,Oh La La,05/10/2018 22:00,06/10/2018 02:00
+Astoria,Oh La La,12/10/2018 22:00,13/10/2018 02:00
+Astoria,Oh La La,19/10/2018 22:00,20/10/2018 02:00
+Astoria,Oh La La,26/10/2018 22:00,27/10/2018 02:00
+Astoria,Oh La La,02/11/2018 22:00,03/11/2018 02:00
+Astoria,Oh La La,09/11/2018 22:00,10/11/2018 02:00
+Astoria,Oh La La,16/11/2018 22:00,17/11/2018 02:00
+Astoria,Oh La La,23/11/2018 22:00,24/11/2018 02:00
+Astoria,Oh La La,30/11/2018 22:00,01/12/2018 02:00
+Astoria,Oh La La,07/12/2018 22:00,08/12/2018 02:00
+Astoria,Oh La La,14/12/2018 22:00,15/12/2018 02:00
+Astoria,Oh La La,21/12/2018 22:00,22/12/2018 02:00
+Astoria,Oh La La,28/12/2018 22:00,29/12/2018 02:00
+Astoria,Oh La La,04/01/2019 22:00,05/01/2019 02:00
+Astoria,Oh La La,11/01/2019 22:00,12/01/2019 02:00
+Astoria,Oh La La,18/01/2019 22:00,19/01/2019 02:00
+Astoria,Oh La La,25/01/2019 22:00,26/01/2019 02:00
+Astoria,Oh La La,01/02/2019 22:00,02/02/2019 02:00
+Astoria,Oh La La,08/02/2019 22:00,09/02/2019 02:00
+Astoria,Oh La La,15/02/2019 22:00,16/02/2019 02:00
+Astoria,Oh La La,22/02/2019 22:00,23/02/2019 02:00
+Astoria,Oh La La,01/03/2019 22:00,02/03/2019 02:00
+Astoria,Oh La La,08/03/2019 22:00,09/03/2019 02:00
+Astoria,Oh La La,15/03/2019 22:00,16/03/2019 02:00
+Astoria,Oh La La,22/03/2019 22:00,23/03/2019 02:00
+Astoria,Oh La La,29/03/2019 22:00,30/03/2019 02:00
+Astoria,Oh La La,05/04/2019 22:00,06/04/2019 02:00
+Astoria,Oh La La,12/04/2019 22:00,13/04/2019 02:00
+Astoria,Oh La La,19/04/2019 22:00,20/04/2019 02:00
+Astoria,Oh La La,26/04/2019 22:00,27/04/2019 02:00
+Astoria,Oh La La,03/05/2019 22:00,04/05/2019 02:00
+Astoria,Oh La La,10/05/2019 22:00,11/05/2019 02:00
+Astoria,Oh La La,17/05/2019 22:00,18/05/2019 02:00
+Astoria,Oh La La,24/05/2019 22:00,25/05/2019 02:00
+Astoria,Oh La La,31/05/2019 22:00,01/06/2019 02:00
+Astoria,Oh La La,07/06/2019 22:00,08/06/2019 02:00
+Astoria,Oh La La,14/06/2019 22:00,15/06/2019 02:00
+Astoria,Oh La La,21/06/2019 22:00,22/06/2019 02:00
+Astoria,Oh La La,28/06/2019 22:00,29/06/2019 02:00
+Astoria,Oh La La,05/07/2019 22:00,06/07/2019 02:00
+Pryzm,The Pound Party,27/09/2018 22:00,28/09/2018 02:00
+Pryzm,The Pound Party,04/10/2018 22:00,05/10/2018 02:00
+Pryzm,The Pound Party,11/10/2018 22:00,12/10/2018 02:00
+Pryzm,The Pound Party,18/10/2018 22:00,19/10/2018 02:00
+Pryzm,The Pound Party,25/10/2018 22:00,26/10/2018 02:00
+Pryzm,The Pound Party,01/11/2018 22:00,02/11/2018 02:00
+Pryzm,The Pound Party,08/11/2018 22:00,09/11/2018 02:00
+Pryzm,The Pound Party,15/11/2018 22:00,16/11/2018 02:00
+Pryzm,The Pound Party,22/11/2018 22:00,23/11/2018 02:00
+Pryzm,The Pound Party,29/11/2018 22:00,30/11/2018 02:00
+Pryzm,The Pound Party,06/12/2018 22:00,07/12/2018 02:00
+Pryzm,The Pound Party,13/12/2018 22:00,14/12/2018 02:00
+Pryzm,The Pound Party,20/12/2018 22:00,21/12/2018 02:00
+Pryzm,The Pound Party,27/12/2018 22:00,28/12/2018 02:00
+Pryzm,The Pound Party,03/01/2019 22:00,04/01/2019 02:00
+Pryzm,The Pound Party,10/01/2019 22:00,11/01/2019 02:00
+Pryzm,The Pound Party,17/01/2019 22:00,18/01/2019 02:00
+Pryzm,The Pound Party,24/01/2019 22:00,25/01/2019 02:00
+Pryzm,The Pound Party,31/01/2019 22:00,01/02/2019 02:00
+Pryzm,The Pound Party,07/02/2019 22:00,08/02/2019 02:00
+Pryzm,The Pound Party,14/02/2019 22:00,15/02/2019 02:00
+Pryzm,The Pound Party,21/02/2019 22:00,22/02/2019 02:00
+Pryzm,The Pound Party,28/02/2019 22:00,01/03/2019 02:00
+Pryzm,The Pound Party,07/03/2019 22:00,08/03/2019 02:00
+Pryzm,The Pound Party,14/03/2019 22:00,15/03/2019 02:00
+Pryzm,The Pound Party,21/03/2019 22:00,22/03/2019 02:00
+Pryzm,The Pound Party,28/03/2019 22:00,29/03/2019 02:00
+Pryzm,The Pound Party,04/04/2019 22:00,05/04/2019 02:00
+Pryzm,The Pound Party,11/04/2019 22:00,12/04/2019 02:00
+Pryzm,The Pound Party,18/04/2019 22:00,19/04/2019 02:00
+Pryzm,The Pound Party,25/04/2019 22:00,26/04/2019 02:00
+Pryzm,The Pound Party,02/05/2019 22:00,03/05/2019 02:00
+Pryzm,The Pound Party,09/05/2019 22:00,10/05/2019 02:00
+Pryzm,The Pound Party,16/05/2019 22:00,17/05/2019 02:00
+Pryzm,The Pound Party,23/05/2019 22:00,24/05/2019 02:00
+Pryzm,The Pound Party,30/05/2019 22:00,31/05/2019 02:00
+Pryzm,The Pound Party,06/06/2019 22:00,07/06/2019 02:00
+Pryzm,Glitterbaby,28/09/2018 22:00,29/09/2018 02:00
+Pryzm,Glitterbaby,05/10/2018 22:00,06/10/2018 02:00
+Pryzm,Glitterbaby,12/10/2018 22:00,13/10/2018 02:00
+Pryzm,Glitterbaby,19/10/2018 22:00,20/10/2018 02:00
+Pryzm,Glitterbaby,26/10/2018 22:00,27/10/2018 02:00
+Pryzm,Glitterbaby,02/11/2018 22:00,03/11/2018 02:00
+Pryzm,Glitterbaby,09/11/2018 22:00,10/11/2018 02:00
+Pryzm,Glitterbaby,16/11/2018 22:00,17/11/2018 02:00
+Pryzm,Glitterbaby,23/11/2018 22:00,24/11/2018 02:00
+Pryzm,Glitterbaby,30/11/2018 22:00,01/12/2018 02:00
+Pryzm,Glitterbaby,07/12/2018 22:00,08/12/2018 02:00
+Pryzm,Glitterbaby,14/12/2018 22:00,15/12/2018 02:00
+Pryzm,Glitterbaby,21/12/2018 22:00,22/12/2018 02:00
+Pryzm,Glitterbaby,28/12/2018 22:00,29/12/2018 02:00
+Pryzm,Glitterbaby,04/01/2019 22:00,05/01/2019 02:00
+Pryzm,Glitterbaby,11/01/2019 22:00,12/01/2019 02:00
+Pryzm,Glitterbaby,18/01/2019 22:00,19/01/2019 02:00
+Pryzm,Glitterbaby,25/01/2019 22:00,26/01/2019 02:00
+Pryzm,Glitterbaby,01/02/2019 22:00,02/02/2019 02:00
+Pryzm,Glitterbaby,08/02/2019 22:00,09/02/2019 02:00
+Pryzm,Glitterbaby,15/02/2019 22:00,16/02/2019 02:00
+Pryzm,Glitterbaby,22/02/2019 22:00,23/02/2019 02:00
+Pryzm,Glitterbaby,01/03/2019 22:00,02/03/2019 02:00
+Pryzm,Glitterbaby,08/03/2019 22:00,09/03/2019 02:00
+Pryzm,Glitterbaby,15/03/2019 22:00,16/03/2019 02:00
+Pryzm,Glitterbaby,22/03/2019 22:00,23/03/2019 02:00
+Pryzm,Glitterbaby,29/03/2019 22:00,30/03/2019 02:00
+Pryzm,Glitterbaby,05/04/2019 22:00,06/04/2019 02:00
+Pryzm,Glitterbaby,12/04/2019 22:00,13/04/2019 02:00
+Pryzm,Glitterbaby,19/04/2019 22:00,20/04/2019 02:00
+Pryzm,Glitterbaby,26/04/2019 22:00,27/04/2019 02:00
+Pryzm,Glitterbaby,03/05/2019 22:00,04/05/2019 02:00
+Pryzm,Glitterbaby,10/05/2019 22:00,11/05/2019 02:00
+Pryzm,Glitterbaby,17/05/2019 22:00,18/05/2019 02:00
+Pryzm,Glitterbaby,24/05/2019 22:00,25/05/2019 02:00
+Pryzm,Glitterbaby,31/05/2019 22:00,01/06/2019 02:00
+Pryzm,Glitterbaby,07/06/2019 22:00,08/06/2019 02:00
+Pryzm,Glitterbaby,14/06/2019 22:00,15/06/2019 02:00
+Pryzm,Glitterbaby,21/06/2019 22:00,22/06/2019 02:00
+Pryzm,Glitterbaby,28/06/2019 22:00,29/06/2019 02:00
+Pryzm,Glitterbaby,05/07/2019 22:00,06/07/2019 02:00
+Pryzm,Pryzm Saturday,28/09/2018 22:00,29/09/2018 02:00
+Pryzm,Pryzm Saturday,05/10/2018 22:00,06/10/2018 02:00
+Pryzm,Pryzm Saturday,12/10/2018 22:00,13/10/2018 02:00
+Pryzm,Pryzm Saturday,19/10/2018 22:00,20/10/2018 02:00
+Pryzm,Pryzm Saturday,26/10/2018 22:00,27/10/2018 02:00
+Pryzm,Pryzm Saturday,02/11/2018 22:00,03/11/2018 02:00
+Pryzm,Pryzm Saturday,09/11/2018 22:00,10/11/2018 02:00
+Pryzm,Pryzm Saturday,16/11/2018 22:00,17/11/2018 02:00
+Pryzm,Pryzm Saturday,23/11/2018 22:00,24/11/2018 02:00
+Pryzm,Pryzm Saturday,30/11/2018 22:00,01/12/2018 02:00
+Pryzm,Pryzm Saturday,07/12/2018 22:00,08/12/2018 02:00
+Pryzm,Pryzm Saturday,14/12/2018 22:00,15/12/2018 02:00
+Pryzm,Pryzm Saturday,21/12/2018 22:00,22/12/2018 02:00
+Pryzm,Pryzm Saturday,28/12/2018 22:00,29/12/2018 02:00
+Pryzm,Pryzm Saturday,04/01/2019 22:00,05/01/2019 02:00
+Pryzm,Pryzm Saturday,11/01/2019 22:00,12/01/2019 02:00
+Pryzm,Pryzm Saturday,18/01/2019 22:00,19/01/2019 02:00
+Pryzm,Pryzm Saturday,25/01/2019 22:00,26/01/2019 02:00
+Pryzm,Pryzm Saturday,01/02/2019 22:00,02/02/2019 02:00
+Pryzm,Pryzm Saturday,08/02/2019 22:00,09/02/2019 02:00
+Pryzm,Pryzm Saturday,15/02/2019 22:00,16/02/2019 02:00
+Pryzm,Pryzm Saturday,22/02/2019 22:00,23/02/2019 02:00
+Pryzm,Pryzm Saturday,01/03/2019 22:00,02/03/2019 02:00
+Pryzm,Pryzm Saturday,08/03/2019 22:00,09/03/2019 02:00
+Pryzm,Pryzm Saturday,15/03/2019 22:00,16/03/2019 02:00
+Pryzm,Pryzm Saturday,22/03/2019 22:00,23/03/2019 02:00
+Pryzm,Pryzm Saturday,29/03/2019 22:00,30/03/2019 02:00
+Pryzm,Pryzm Saturday,05/04/2019 22:00,06/04/2019 02:00
+Pryzm,Pryzm Saturday,12/04/2019 22:00,13/04/2019 02:00
+Pryzm,Pryzm Saturday,19/04/2019 22:00,20/04/2019 02:00
+Pryzm,Pryzm Saturday,26/04/2019 22:00,27/04/2019 02:00
+Pryzm,Pryzm Saturday,03/05/2019 22:00,04/05/2019 02:00
+Pryzm,Pryzm Saturday,10/05/2019 22:00,11/05/2019 02:00
+Pryzm,Pryzm Saturday,17/05/2019 22:00,18/05/2019 02:00
+Pryzm,Pryzm Saturday,24/05/2019 22:00,25/05/2019 02:00
+Pryzm,Pryzm Saturday,31/05/2019 22:00,01/06/2019 02:00
+Pryzm,Pryzm Saturday,07/06/2019 22:00,08/06/2019 02:00
+Pryzm,Pryzm Saturday,14/06/2019 22:00,15/06/2019 02:00
+Pryzm,Pryzm Saturday,21/06/2019 22:00,22/06/2019 02:00
+Pryzm,Pryzm Saturday,28/06/2019 22:00,29/06/2019 02:00
+Pryzm,Pryzm Saturday,05/07/2019 22:00,06/07/2019 02:00
+Various,Purple Wednesday,26/09/2018 22:00,27/09/2018 02:00
+Various,Purple Wednesday,03/10/2018 22:00,04/10/2018 02:00
+Various,Purple Wednesday,10/10/2018 22:00,11/10/2018 02:00
+Various,Purple Wednesday,17/10/2018 22:00,18/10/2018 02:00
+Various,Purple Wednesday,24/10/2018 22:00,25/10/2018 02:00
+Various,Purple Wednesday,31/10/2018 22:00,01/11/2018 02:00
+Various,Purple Wednesday,07/11/2018 22:00,08/11/2018 02:00
+Various,Purple Wednesday,14/11/2018 22:00,15/11/2018 02:00
+Various,Purple Wednesday,21/11/2018 22:00,22/11/2018 02:00
+Various,Purple Wednesday,28/11/2018 22:00,29/11/2018 02:00
+Various,Purple Wednesday,05/12/2018 22:00,06/12/2018 02:00
+Various,Purple Wednesday,12/12/2018 22:00,13/12/2018 02:00
+Various,Purple Wednesday,19/12/2018 22:00,20/12/2018 02:00
+Various,Purple Wednesday,26/12/2018 22:00,27/12/2018 02:00
+Various,Purple Wednesday,02/01/2019 22:00,03/01/2019 02:00
+Various,Purple Wednesday,09/01/2019 22:00,10/01/2019 02:00
+Various,Purple Wednesday,16/01/2019 22:00,17/01/2019 02:00
+Various,Purple Wednesday,23/01/2019 22:00,24/01/2019 02:00
+Various,Purple Wednesday,30/01/2019 22:00,31/01/2019 02:00
+Various,Purple Wednesday,06/02/2019 22:00,07/02/2019 02:00
+Various,Purple Wednesday,13/02/2019 22:00,14/02/2019 02:00
+Various,Purple Wednesday,20/02/2019 22:00,21/02/2019 02:00
+Various,Purple Wednesday,27/02/2019 22:00,28/02/2019 02:00
+Various,Purple Wednesday,06/03/2019 22:00,07/03/2019 02:00
+Various,Purple Wednesday,13/03/2019 22:00,14/03/2019 02:00
+Various,Purple Wednesday,20/03/2019 22:00,21/03/2019 02:00
+Various,Purple Wednesday,27/03/2019 22:00,28/03/2019 02:00
+Various,Purple Wednesday,03/04/2019 22:00,04/04/2019 02:00
+Various,Purple Wednesday,10/04/2019 22:00,11/04/2019 02:00
+Various,Purple Wednesday,17/04/2019 22:00,18/04/2019 02:00
+Various,Purple Wednesday,24/04/2019 22:00,25/04/2019 02:00
+Various,Purple Wednesday,01/05/2019 22:00,02/05/2019 02:00
+Various,Purple Wednesday,08/05/2019 22:00,09/05/2019 02:00
+Various,Purple Wednesday,15/05/2019 22:00,16/05/2019 02:00
+Various,Purple Wednesday,22/05/2019 22:00,23/05/2019 02:00
+Various,Purple Wednesday,29/05/2019 22:00,30/05/2019 02:00
+Various,Purple Wednesday,05/06/2019 22:00,06/06/2019 02:00
+Various,Purple Wednesday,12/06/2019 22:00,13/06/2019 02:00
+Various,Purple Wednesday,19/06/2019 22:00,20/06/2019 02:00
+Various,Purple Wednesday,26/06/2019 22:00,27/06/2019 02:00
+Various,Purple Wednesday,03/07/2019 22:00,04/07/2019 02:00
