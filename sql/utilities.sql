@@ -51,7 +51,7 @@ COPY course_unit(course_id, unit_code, course_option, course_unit_year)
 FROM '/home/harryw/course_data/course_unit.csv' DELIMITER ',' CSV HEADER;
 
 -- Copying from term_dates.csv data to termdates table.
-COPY termdates
+COPY termdates_test
 FROM '/home/harryw/term_dates_test.csv' DELIMITER ',' CSV HEADER;
 
 -- Copying from lecture_data.csv data to lecture table.
@@ -73,6 +73,73 @@ FROM '/home/harryw/attendance_data.csv' DELIMITER ',' CSV HEADER;
 COPY weather_data
 FROM '/home/harryw/weather_data/Weather_080119-010419.csv' DELIMITER ',' CSV HEADER;
 
-
 COPY city_event(location, event_name, start_datetime, end_datetime)
 FROM '/home/harryw/event_data/Portsmouth_events.csv' DELIMITER ',' CSV HEADER;
+
+COPY lecture(unit_code, lecture_start_time, lecture_day, unit_name, lecture_end_time, module_type, lecture_weeks)
+FROM '/home/harryw/lecture_output_test.csv' DELIMITER ',' CSV HEADER;
+
+COPY attendance(attended, week, student_id, unit_id)
+FROM '/home/harryw/attendance_extract_test.csv' DELIMITER ',' CSV HEADER;
+
+\copy (select * from attendance_test at join lecture l on at.unit_id = l.unit_code where at.week_no = l.week) to 'HARRY_TEST_JOIN_EXPORT.CSV' with csv;
+
+\copy (select * from attendance at join lecture l on at.unit_id = l.unit_code join course_unit cu on cu.unit_code = l.unit_code join course c on cu.course_id = c.course_id join unit u on cu.unit_code = u.unit_code where at.week = l.lecture_weeks) to 'HARRY_TEST_JOIN_EXPORT2.CSV' with csv;
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U22389', 'ADVANCED DATABASE CONCEPTS (DL)','ADCONDL', 20, 'FHEQ_6'),
+('U22445', 'ADVANCED NETWORKS (DL)', 'ADNETDL', 20, 'FHEQ_6'),
+('U22374', 'ADVANCED SYSTEMS DEVELOPMENT (DL)', 'ADSYSDL', 20, 'FHEQ_6'),
+('U22510', 'INFORMATION SYSTEMS MANAGEMENT (DL)', 'ISMANDL',  20, 'FHEQ_6'),
+('U22376', 'PROJECT MANAGEMENT (DL)', 'PRMANDL',  20, 'FHEQ_6'),
+('U25537', 'RESEARCH INTERNAL PLACEMENT (DL)', 'RESINTDL',  30, 'FHEQ_7'),
+('U25535', 'RESEARCH PROJECT (DL)', 'RESPRODL',  90, 'FHEQ_8');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U22375', 'E-COMMERCE - A CRITICAL EVALUATION OF TECHNOLOGY (DL)', 'ECRETDL', 20, 'FHEQ_6');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U26107', 'LEARNING FROM EXPERIENCE TEACHING PLACEMENT', 'U2610', 20, 'FHEQ_5');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U25536', 'RESEARCH PREPARATION AND DEVELOPMENT (DL)', 'RESPREDL', 60, 'FHEQ_7');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U20749', 'OPERATIONAL RESEARCH', 'M251', 20, 'FHEQ_6');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U21466', 'SPANISH GENERAL LANGUAGE GRADE 4', 'SLG4', 20, 'FHEQ_5');
+
+INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
+('U24631', 'SPECIALIST ACADEMIC ENGLISH FOR POSTGRADUATES', 'U24631', 0, 'FHEQ_7');
+
+
+
+select 
+at.attended, 
+at.student_id, 
+l.unit_name, 
+l.module_type, 
+l.lecture_start_time, 
+l.lecture_end_time 
+from attendance at 
+join lecture l on at.unit_id = l.unit_code 
+where at.week = l.lecture_weeks;
+
+select
+COUNT(at.attended)
+from attendance_test at
+join lecture l on at.unit_id = l.unit_code
+where at.week_no = l.week
+and unit_name = '3D COMPUTER GRAPHICS AND ANIMATION'
+and at.week_no = 2
+and at.attended > 0;
+
+select *
+from attendance at
+join lecture l on at.unit_id = l.unit_code
+join course_unit cu on cu.unit_code = l.unit_code
+join course c on cu.course_id = c.course_id
+join unit u on cu.unit_code = u.unit_code
+where at.week = l.lecture_weeks;
+
