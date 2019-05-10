@@ -13,3 +13,4 @@ psql -f '/path/to/file/test_export.sql' -d up785080_artefact
 
 Please note a database with the name up785080_artefact will have to be available which can be created with the below statement.
 CREATE DATABASE up785080_artefact
+
