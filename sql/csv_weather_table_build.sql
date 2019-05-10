@@ -1,3 +1,4 @@
+-- Table creation statement for storing OpenWeatherMap data dump.
 CREATE TABLE IF NOT EXISTS csv_weather_data(
     dt INT,
     dt_iso VARCHAR(50),

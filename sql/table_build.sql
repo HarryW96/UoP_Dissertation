@@ -1,4 +1,8 @@
--- File used to build the tables for UoP dissertation. 
+-- File used to build the tables for UoP dissertation.
+-- PLEASE NOTE: This is not the actual creation statements, this file is here purely to show the original tables and
+-- the process and changes they went through over the course of the project.
+-- FOR THE REAL CREATION STATEMENT PLEASE VIEW: postghres_export.sql.
+
 CREATE TABLE Course(
     course_id VARCHAR UNIQUE NOT NULL,
     course_name VARCHAR NOT NULL,
@@ -8,7 +12,6 @@ CREATE TABLE Course(
 );
 -- Reflected change below in table creation above although kept for records.
 -- ALTER TABLE course ALTER COLUMN academic_year TYPE INT USING academic_year::INTEGER;
-
 
 CREATE TABLE Student(
     student_id VARCHAR UNIQUE NOT NULL,
@@ -147,7 +150,7 @@ CREATE TABLE Attendance(
         ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
-
+-- Alternative table to account for different attendance format.
 CREATE TABLE Attendance_Test(
     student_id VARCHAR NOT NULL,
     unit_id VARCHAR NOT NULL,
@@ -220,6 +223,7 @@ CREATE TABLE Travel_Time(
         ON UPDATE CASCADE ON DELETE NO ACTION 
 );
 
+-- Built to hold term dates due to odd formatting received in.
 CREATE TABLE Termdates(
     day_name VARCHAR,
     date_num INTEGER,
