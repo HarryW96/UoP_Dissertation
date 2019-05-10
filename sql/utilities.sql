@@ -1,3 +1,5 @@
+-- A collection of useful/repeated SQL statements that were used regularly over the courrse of the project.
+
 -- Count from tables
 SELECT COUNT(*) FROM accommodation;
 SELECT COUNT(*) FROM attendance;
@@ -82,10 +84,14 @@ FROM '/home/harryw/lecture_output_test.csv' DELIMITER ',' CSV HEADER;
 COPY attendance(attended, week, student_id, unit_id)
 FROM '/home/harryw/attendance_extract_test.csv' DELIMITER ',' CSV HEADER;
 
-\copy (select * from attendance_test at join lecture l on at.unit_id = l.unit_code where at.week_no = l.week) to 'HARRY_TEST_JOIN_EXPORT.CSV' with csv;
+-- Testing exports from SQL query for attendance data.
+\COPY (SELECT * FROM attendance_test AT JOIN lecture l ON AT.unit_id = l.unit_code WHERE AT.week_no = l.week) TO 'HARRY_TEST_JOIN_EXPORT.CSV' WITH csv;
 
-\copy (select * from attendance at join lecture l on at.unit_id = l.unit_code join course_unit cu on cu.unit_code = l.unit_code join course c on cu.course_id = c.course_id join unit u on cu.unit_code = u.unit_code where at.week = l.lecture_weeks) to 'HARRY_TEST_JOIN_EXPORT2.CSV' with csv;
+-- Ensuring copy query used gets correct output by exporting to CSV first to overlook the data.
+\COPY (SELECT * FROM attendance AT JOIN lecture l ON AT.unit_id = l.unit_code JOIN course_unit cu ON cu.unit_code = l.unit_code JOIN course c ON cu.course_id = c.course_id JOIN unit u ON cu.unit_code = u.unit_code WHERE AT.week = l.lecture_weeks) TO 'HARRY_TEST_JOIN_EXPORT2.CSV' WITH csv;
 
+-----------------------------------------------------------------------------------------------
+-- Manually inserting some unit data as the unit codes did not match up in some areas.
 INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
 ('U22389', 'ADVANCED DATABASE CONCEPTS (DL)','ADCONDL', 20, 'FHEQ_6'),
 ('U22445', 'ADVANCED NETWORKS (DL)', 'ADNETDL', 20, 'FHEQ_6'),
@@ -112,34 +118,34 @@ INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
 
 INSERT INTO Unit(unit_code, unit_name, short_name, credits, study_level) VALUES
 ('U24631', 'SPECIALIST ACADEMIC ENGLISH FOR POSTGRADUATES', 'U24631', 0, 'FHEQ_7');
+----------------------------------------------------------------------------------------------- 
 
-
-
-select 
-at.attended, 
-at.student_id, 
+-- Test queries to ensure joins and relations have worked correctly and data returns as expected.
+SELECT 
+AT.attended, 
+AT.student_id, 
 l.unit_name, 
 l.module_type, 
 l.lecture_start_time, 
 l.lecture_end_time 
-from attendance at 
-join lecture l on at.unit_id = l.unit_code 
-where at.week = l.lecture_weeks;
+FROM attendance AT 
+JOIN lecture l ON AT.unit_id = l.unit_code 
+WHERE AT.week = l.lecture_weeks;
 
-select
-COUNT(at.attended)
-from attendance_test at
-join lecture l on at.unit_id = l.unit_code
-where at.week_no = l.week
-and unit_name = '3D COMPUTER GRAPHICS AND ANIMATION'
-and at.week_no = 2
-and at.attended > 0;
+SELECT
+COUNT(AT.attended)
+FROM attendance_test AT
+JOIN lecture l ON AT.unit_id = l.unit_code
+WHERE AT.week_no = l.week
+AND unit_name = '3D COMPUTER GRAPHICS AND ANIMATION'
+AND AT.week_no = 2
+AND AT.attended > 0;
 
-select *
-from attendance at
-join lecture l on at.unit_id = l.unit_code
-join course_unit cu on cu.unit_code = l.unit_code
-join course c on cu.course_id = c.course_id
-join unit u on cu.unit_code = u.unit_code
-where at.week = l.lecture_weeks;
+SELECT *
+FROM attendance AT
+JOIN lecture l ON AT.unit_id = l.unit_code
+JOIN course_unit cu ON cu.unit_code = l.unit_code
+JOIN course c ON cu.course_id = c.course_id
+JOIN unit u ON cu.unit_code = u.unit_code
+WHERE AT.week = l.lecture_weeks;
 
